@@ -1,0 +1,27 @@
+Are you working for hours in Unity and hurting your eyes? Well you might need to use the Unity Dark Theme. But wait! Isnt that just for the professional edition? Actually you can get the dark theme on the personal edition without paying a penny. 
+
+And yep, i keep calling it standard when I mean personal :)
+
+Here is the magic Hex you need to search for:
+84 C0 75 08 33 C0 48 83 C4 20 5B C3 8B 03 48
+
+Just replace the "75" with "74" so that it looks like this:
+84 C0 74 08 33 C0 48 83 C4 20 5B C3 8B 03 48
+
+WARNING: be very careful when editing the file as if you make a mistake you may have to reinstall unity. 
+
+
+2018.3
+
+84 C0 75 08 33 C0 48 83 C4 30 5B C3 8B 03 48 83 C4 30 5B C3
+84 C0 74 08 33 C0 48 83 C4 30 5B C3 8B 03 48 83 C4 30 5B C3
+
+2019.1
+
+74 04 33 C0 EB 02 8B 07
+75 04 33 C0 EB 02 8B 07
+
+2019.2
+
+00 75 15 33 C0 EB 13 90
+00 74 15 33 C0 EB 13 90
